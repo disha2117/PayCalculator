@@ -1,0 +1,29 @@
+<resources>
+    <!-- App & menu -->
+    <string name="app_name">Pay Calculator</string>
+    <string name="about">About</string>
+    <string name="about_title">About</string>
+
+    <!-- About screen -->
+    <string name="full_name_display">Name: Dishaben Natvarbhai Patel</string>
+    <string name="student_id_display">Student ID: 101410018</string>
+
+    <!-- Main screen hints/labels -->
+    <string name="hours_hint">Hours worked</string>
+    <string name="rate_hint">Hourly rate</string>
+    <string name="tax_hint">Tax rate (e.g., 0.2)</string>
+    <string name="calculate">Calculate</string>
+    <string name="pay">Pay:</string>
+    <string name="overtime_pay">Overtime Pay:</string>
+    <string name="total_pay">Total Pay:</string>
+    <string name="tax">Tax:</string>
+
+    <!-- Formats to avoid concatenation -->
+    <string name="pay_format">Pay: %1$s</string>
+    <string name="overtime_pay_format">Overtime Pay: %1$s</string>
+    <string name="total_pay_format">Total Pay: %1$s</string>
+    <string name="tax_format">Tax: %1$s</string>
+
+    <!-- Errors -->
+    <string name="err_enter_all_fields">Please enter hours, rate, and tax rate.</string>
+</resources>

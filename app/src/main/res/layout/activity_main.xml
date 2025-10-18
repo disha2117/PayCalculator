@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Hours -->
+        <EditText
+            android:id="@+id/inputHours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="@string/hours_hint"
+            android:importantForAutofill="no" />
+
+        <!-- Rate -->
+        <EditText
+            android:id="@+id/inputRate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="@string/rate_hint"
+            android:layout_marginTop="12dp"
+            android:importantForAutofill="no" />
+
+        <!-- Tax -->
+        <EditText
+            android:id="@+id/inputTax"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="@string/tax_hint"
+            android:layout_marginTop="12dp"
+            android:importantForAutofill="no" />
+
+        <Button
+            android:id="@+id/btnCalc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/calculate"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/outPay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pay"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/outOvertime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/overtime_pay"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/outTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/total_pay"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/outTax"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tax"
+            android:textSize="18sp" />
+    </LinearLayout>
+</ScrollView>
